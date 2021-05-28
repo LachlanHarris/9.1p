@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">9.1p</string>
+    <string name="title_activity_show_on_map">Map</string>
+    <string name="title_activity_show_all_restaurants_on_map">Map</string>
+</resources>
