@@ -40,7 +40,7 @@ public class AutocompleteActivity extends AppCompatActivity {
         SaveButton = findViewById(R.id.SaveButton);
 
         // Initialize the SDK
-        Places.initialize(getApplicationContext(),"AIzaSyDzqvpVZ1j-oWFVfeQIrAyXkVFBjewAzYc");
+        Places.initialize(getApplicationContext(),"THIS IS WHERE YOU WOULD PLACE THE API KEY");
 
         // Create a new PlacesClient instance
         PlacesClient placesClient = Places.createClient(this);
@@ -91,12 +91,6 @@ public class AutocompleteActivity extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 });
-
-
-                //List x = test2.build().getPlaceFields();
-                //Log.i("asdfasrfhbewrsfgthgty", x.get(0).toString());
-
-                
             }
         });
 
